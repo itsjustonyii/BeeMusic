@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  padding: 20px 15px;
+  background-color: rgb(236, 231, 231);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inputfield {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 670px;
+  height: 25px;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.inputfield input {
+  padding: 10px;
+  width: 400px;
+  border: none;
+}
+
+.inputfield input:focus {
+  outline: none;
+}
+
+.icon1 {
+  color: rgb(97, 96, 96);
+}
+
+::placeholder {
+  color: rgb(173, 171, 171);
+}
+
+.p {
+  font-size: 12px;
+  color: rgb(100, 98, 98);
+}
+
+.icon2 {
+  color: red;
+}
+
+.align {
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.background {
+  background-image: linear-gradient(to left, rgba(245, 245, 245, 0.2), rgb(255, 255, 255)), url('./world.jpg');
+  height: 150px;
+  width:780px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 40px 20px 20px 20px;
+}
+
+.h {
+  margin-top: 15px;
+  letter-spacing: 0.2rem;
+}
+
+.h2 {
+  letter-spacing: 0.2rem;
+}
+
+.align2 {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.btn1 {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.btn2 {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 485px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.color {
+  color: rgb(206, 199, 199);
+}
+
+.color2 {
+  color: rgb(206, 199, 199);
+  margin-left: 725px;
+}
+
+.lay {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 50px 200px 300px 50px 1fr;
+}
+
+.p2 {
+  font-size: 12px;
+  color: rgb(179, 175, 175);
+  display: flex;
+  align-items: center;
+}

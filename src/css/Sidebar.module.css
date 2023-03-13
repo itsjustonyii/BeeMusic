@@ -1,0 +1,66 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.15;
+  padding: 20px 0 20px 25px;
+  min-width: 230px;
+  height: 100vh;
+}
+
+.header {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.circle1 {
+  color: red;
+  padding-right: 5px;
+}
+
+.circle2 {
+  color: goldenrod;
+  padding-right: 5px;
+}
+
+.circle3 {
+  color: green;
+  margin-right: 150px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  color: gold;
+  margin-left: 5px;
+}
+
+.user {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  border-top: 1px solid rgb(211, 207, 207);
+  width: 17.5%;
+  max-height: 20px;
+  padding: 20px 0 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.user P {
+  margin-left: 10px;
+}
+
+.user span {
+ padding-left: 100px; 
+}
+
+.icon {
+  color: gold;
+}

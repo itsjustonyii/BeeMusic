@@ -1,0 +1,29 @@
+
+.track {
+  display: grid;
+  grid-template-columns: 50px 200px 300px 50px 1fr;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.p {
+  font-size: 12px;
+  color: rgb(119, 119, 119);
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.track:hover {
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1) !important;
+  width: 750px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.track .p:hover {
+  color: black;
+}

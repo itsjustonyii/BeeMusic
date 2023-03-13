@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  margin-left: 6px;
+  margin-bottom: 170px;
+}
+
+.span{
+  color: gold;
+}
+
+.login {
+  margin-left: 36rem;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 99px;
+  font-weight: 800;
+  background-color: goldenrod
+}
