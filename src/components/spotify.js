@@ -1,7 +1,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = "e581e351592d47bbab8864f71fb76690";
-const redirectUri = "https://onyii-beemusic.netlify.app/";
+const redirectUri = "https://onyii-beemusic.vercel.app/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
